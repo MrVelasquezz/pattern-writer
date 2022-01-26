@@ -20,7 +20,7 @@ function drawMatrix(num){
         for(j = 0; j <= num-i; j++){
             arr.push('$')
         }
-        for(j = 0; j <= 2*i; j++){
+        for(j = 0; j <= 2*i+1; j++){
             arr.push(' ')
         }
         for(j = 0; j <= num-i; j++){
@@ -33,7 +33,7 @@ function drawMatrix(num){
         for(j = 0; j <= num-i; j++){
             arr.push('$')
         }
-        for(j = 0; j <= 2*i; j++){
+        for(j = 0; j <= 2*i+1; j++){
             arr.push(' ')
         }
         for(j = 0; j <= num-i; j++){
